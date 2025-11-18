@@ -4,46 +4,49 @@ Airport Management System
 A comprehensive frontend-only Airport Management System built with React.js that provides complete CRUD functionality for users and flights, along with ticket booking capabilities.
 
 **🚀 Features**
-**Core Functionality**
-Splash Screen: Beautiful introductory screen with smooth transition to main application
 
-Authentication System: Login and register pages with context-based state management
+**Splash Screen:** Beautiful introductory screen with smooth transition to main application
 
-User Management: Complete CRUD operations for users (Create, Read, Update, Delete)
+**Authentication System:** Login and register pages with context-based state management
 
-Flight Management: Full CRUD operations for flight tickets
+**User Management:** Complete CRUD operations for users (Create, Read, Update, Delete)
 
-Booking System: Interlinked booking functionality connecting users to flights
+**Flight Management:** Full CRUD operations for flight tickets
 
-Flight Dashboard: Comprehensive view of all available flights with real-time status
+**Booking System:** Interlinked booking functionality connecting users to flights
 
-**Technical Features**
-Context API State Management: No prop drilling - all state managed through React Context
+**Flight Dashboard:** Comprehensive view of all available flights with real-time status
 
-Local Storage Persistence: Data persists across browser refreshes
+**Technical Features:**
 
-Responsive Design: Optimized for both mobile and desktop devices
+**Context API State Management:** No prop drilling - all state managed through React Context
 
-Form Validation: Comprehensive input validation and user feedback
+**Local Storage Persistence:** Data persists across browser refreshes
 
-Modern UI: Clean, professional interface built with Bootstrap 5
+**Responsive Design:** Optimized for both mobile and desktop devices
 
-**🛠 Technology Stack**
-Frontend Framework: React.js 18+
+**Form Validation:** Comprehensive input validation and user feedback
 
-State Management: React Context API
+**Modern UI:** Clean, professional interface built with Bootstrap 5
 
-Routing: React Router v6+
+**🛠 Technology Stack:**
 
-Styling: Bootstrap 5 with custom CSS
+**Frontend Framework:** React.js 18+
 
-Build Tool: Vite
+**State Management:** React Context API
 
-Persistence: localStorage
+**Routing**: React Router v6+
 
-ID Generation: UUID v4 for unique identifiers
+**Styling:** Bootstrap 5 with custom CSS
 
-**📁 Project Structure**
+**Build Tool:** Vite
+
+**Persistence:** localStorage
+
+**ID Generation:** UUID v4 for unique identifiers
+
+**📁 Project Structure:**
+
 text
 src/
 ├── components/          # Reusable UI components
@@ -64,13 +67,16 @@ src/
 │   └── AppRouter.js    # Main router component
 └── styles/             # Custom stylesheets
     └── ...             # CSS files
-**🚀 Installation & Setup**
+    
+**🚀 Installation & Setup:**
+
 Prerequisites
 Node.js (v16 or higher)
 
 npm or yarn package manager
 
-**📱 Pages & Routing**
+**📱 Pages & Routing:**
+
 / - Splash screen (auto-redirects to login)
 
 /login - User authentication
@@ -84,7 +90,9 @@ npm or yarn package manager
 /tickets - Flight management and booking
 
 **💡 Key Features Explained**
-**User Management**
+
+**User Management:**
+
 Add new users with name and email
 
 Edit existing user information
@@ -93,7 +101,8 @@ Delete users with confirmation dialog
 
 Real-time updates across all components
 
-**Flight Management**
+**Flight Management:**
+
 Create flight tickets with comprehensive details:
 
 Flight number
@@ -110,7 +119,7 @@ Inline editing for quick updates
 
 Delete flights with safety confirmation
 
-**Booking System**
+**Booking System:**
 
 Users can book available flights
 
@@ -118,7 +127,7 @@ Visual indication of booking status
 
 Interlinked data showing user-flight relationships
 
-**Flight Status**
+**Flight Status:**
 
 On Time: Green indicator
 
@@ -126,7 +135,7 @@ Delayed: Yellow/orange indicator
 
 Cancelled: Red indicator
 
-**🎨 Styling & UI**
+**🎨 Styling & UI:**
 
 Framework: Bootstrap 5
 
@@ -138,7 +147,7 @@ Color Scheme: Professional airline-themed colors
 
 Icons: Bootstrap Icons integration
 
-**🔒 Data Persistence**
+**🔒 Data Persistence:**
 
 All application data is stored in browser localStorage:
 
@@ -150,7 +159,7 @@ Authentication state preserved
 
 Bookings remain intact
 
-**📱 Responsive Design**
+**📱 Responsive Design:**
 
 Mobile: Single column layout with touch-friendly controls
 
@@ -158,7 +167,7 @@ Tablet: Adaptive grid system
 
 Desktop: Multi-column layouts with optimal information density
 
-**🚦 Form Validation**
+**🚦 Form Validation:**
 
 Required field validation
 
@@ -170,7 +179,7 @@ Real-time error feedback
 
 Confirmation dialogs for destructive actions
 
-**🔄 State Management Flow**
+**🔄 State Management Flow:**
 
 User Actions → Context Functions
 
